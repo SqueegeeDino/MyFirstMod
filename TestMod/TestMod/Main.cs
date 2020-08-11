@@ -5,10 +5,6 @@ namespace TestMod
 {
     static class Main
     {
-        public static bool enabled;
-        public static string health;
-        public static string ammo;
-
         static bool Load(UnityModManager.ModEntry modEntry)
         {
             modEntry.OnGUI = OnGUI;
